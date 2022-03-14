@@ -1,0 +1,57 @@
+/*Fontes importadas*/
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Ubuntu:wght@400;500&display=swap');
+
+/*Flexbox, posições e espaços*/
+
+body {
+    min-height: 100vh;
+}
+
+.home__header__ul {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    }
+
+.home__header__ul__li {
+    padding: 10px;
+}
+
+.home__main__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.home__main__logo img {
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.home__main__logo__title, .home__main__logo__subtitle {
+    padding: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.home__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/*Cores e fontes*/
+body {
+    background-image: linear-gradient(#100a11, #1e2c21);
+    color: rgb(156, 99, 149);
+    font-family: 'El Messiri', sans-serif;
+}
