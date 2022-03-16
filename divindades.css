@@ -1,0 +1,34 @@
+header {
+    margin: 1rem;
+}
+    .header__page {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+        .header__title {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+
+            padding: 1rem;
+        }
+            .header__title img {
+                filter:hue-rotate(100deg);
+                max-width: 120px;
+            }
+            .header__title__subtitle {
+                padding: 1rem;
+            }
+    
+        .header__nav {
+            min-width: 30%;
+        }
+            .header__ul {
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+            }
+                .header__ul__li {
+                    padding: 1rem;
+                }

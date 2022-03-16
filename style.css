@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-content: center;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 2rem;
 }
 
 .home__main__logo img {
@@ -38,22 +38,68 @@ body {
     padding: 10px;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.home__main__logo__menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    padding: 1rem;
 }
 
+.home__main__logo__menu__link {
+
+    padding: 25px;
+}
+
+footer {
+    padding-top: 2.5rem;
+    margin: 1rem;
+}
 .home__footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.footer__text {
+    padding-right: 1rem;
+}
+
+.footer__text__assign {
+    padding-top: 1rem;
 }
 
 /*Cores e fontes*/
 body {
-    background-image: linear-gradient(#100a11, #1e2c21);
-    color: rgb(156, 99, 149);
+    background-image: linear-gradient(black, rgb(28, 44, 35));
+    color: plum;
     font-family: 'El Messiri', sans-serif;
+}
+
+.home__main__logo__title {
+    font-size: xxx-large;
+    
+}
+
+.home__main__logo__subtitle {
+    font-size: x-large;
+}
+
+.home__main__logo__menu__link {
+    font-size: x-large;
+}
+
+.home__main__logo img {
+    filter:hue-rotate(100deg);
+    transition: all linear 1s;
+}
+    .home__main__logo img:hover {
+        transition: all linear 1s;
+        transform: rotate(-180deg);
+    }
+
+footer {
+    font-size: small;
 }
