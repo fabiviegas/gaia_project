@@ -1,0 +1,131 @@
+/*Fontes importadas*/
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Ubuntu:wght@400;500&display=swap');
+
+/*Alinhamento e fundo*/
+body {
+	min-height: 100vh;
+	background-image: url(assets/frame.png), linear-gradient(#5BD091,#CBF0DD, #ecf0b8);
+	background-repeat: repeat-y, no-repeat;
+}
+
+header {
+    padding: 20px 0;
+	margin-left: 30px;
+}
+
+.page__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	position: relative;
+	width: 1020px;
+	margin: 0 auto;
+	margin-left: 120px;
+}
+
+.header__nav {
+	position: absolute;
+	top: 270px;
+	right: 0;
+}
+
+.title__header {
+	padding-bottom: 10px;
+}
+
+.header__nav li {
+    display: inline;
+	padding: 5px;
+}
+
+main {
+	max-width: 940px;
+	margin: 0 auto;
+	margin-left: 120px;
+	margin-top: 50px;
+	padding: 20px 0;
+	padding-left: 20px;
+}
+
+.title__main {
+	padding-bottom: 10px;
+}
+
+.text__main {
+	padding: 25px;
+}
+
+.divindades {
+	max-width: 940px;
+	margin: 0 auto;
+	margin-left: 120px;
+}
+
+.divindades li {
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+	max-width: 250px;
+	width: 250px;
+	vertical-align: top;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+.divindades li img {
+	max-width: 100%;
+	border-radius: 10%;
+	filter: saturate(0%);
+}
+
+.divindades img:hover {
+	filter: saturate(100%);
+}
+
+.divindades h2, p {
+	padding: 10px;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	padding-top: 90px;
+}
+
+/*Fontes e texto*/
+header, body, footer {
+	font-family: 'El Messiri', sans-serif;
+}
+
+a:hover {
+	color: rgb(86, 40, 90);
+}
+.buttom__logo:hover img{
+	filter:hue-rotate(100deg);
+}
+.header__nav li{
+	font-size: large;
+}
+.title__header {
+	font-size: xxx-large;
+}
+.subtitle__header {
+	font-size: large;
+}
+.title__main {
+	font-size: x-large;
+}
+.text__main {
+	font-size: medium;
+}
+.divindades h2 {
+	font-size: larger;
+}
+footer {
+	font-size: smaller;
+}
+

@@ -36,25 +36,60 @@ header {
                     padding: 1rem;
                 }
 .menu__divindades {
-    background-image: url(/assets/framehp.png);
+   
+    background-image: linear-gradient(transparent 1%, palegoldenrod 99%), url(/assets/framehp.png);
     background-repeat: repeat-x;
     
     display: flex;
     flex-wrap: wrap;
 }
     .title__description__menu__divindades {
-        display: flex;
+        display: flexbox;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         align-content: center;
         
         margin-top: 3.5rem;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 10px;
+        padding-bottom: 10px;
+
+        
+        color: black;
+        
     }
         .title__menu__divindades {
-            padding: 10px;
-
+            padding: 2rem;
+            font-size: x-large;
+            text-align: center;
+        }
+        .description__menu__divindades {
+            text-align: center;
+        }
+        .imagens__menu__divindades {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            text-align: center;
+            padding: 25px;
             
+
+        }
+            .imagens__menu__divindades img {
+                transition: all linear 1s;
+                max-height: 336px;
+                border-radius: 5%;
+                filter: saturate(0%)
+            }
+            .imagens__menu__divindades img:hover {
+                filter: saturate(100%);
+                transition: all linear 1s;
+            }
+            .imagens__menu__divindades__img {
+                padding: 10px;
+            }
+            .title_img {
+                padding: 10px;
+            }
+    
