@@ -20,6 +20,9 @@ header {
             .header__title__subtitle {
                 padding: 1rem;
             }
+                .title {
+                    font-size: xx-large;
+                }
     
         .header__nav {
             min-width: 30%;
@@ -32,3 +35,26 @@ header {
                 .header__ul__li {
                     padding: 1rem;
                 }
+.menu__divindades {
+    background-image: url(/assets/framehp.png);
+    background-repeat: repeat-x;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+    .title__description__menu__divindades {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+        margin-top: 3.5rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+        .title__menu__divindades {
+            padding: 10px;
+
+            
