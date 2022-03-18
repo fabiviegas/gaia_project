@@ -37,7 +37,7 @@ header {
                 }
 .menu__divindades {
    
-    background-image: linear-gradient(transparent 1%, palegoldenrod 99%), url(/assets/framehp.png);
+    background-image: url(/assets/framehp.png), linear-gradient(transparent 1%, palegoldenrod 99%);
     background-repeat: repeat-x;
     
     display: flex;
