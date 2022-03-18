@@ -35,11 +35,14 @@ header {
                 .header__ul__li {
                     padding: 1rem;
                 }
+.divisoria {
+    background-image: url(/assets/framehp.png);
+    background-repeat: repeat-x;
+}
 .menu__divindades {
    
-    background-image: url(/assets/framehp.png), linear-gradient(transparent 1%, palegoldenrod 99%);
-    background-repeat: repeat-x;
-    
+    background-image: linear-gradient(transparent 1%, palegoldenrod 99%);
+        
     display: flex;
     flex-wrap: wrap;
 }
