@@ -1,16 +1,19 @@
-header {
-    margin: 1rem;
-}
+
     .header__page {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap-reverse;
+        background-color: black;
+        background-image: url('assets/root.png');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 50%;
     }
         .header__title {
             display: flex;
             align-items: center;
             flex-wrap: wrap;
-
+            margin: 1rem;
             padding: 1rem;
         }
             .header__title img {
@@ -38,8 +41,9 @@ header {
 
 .menu__divindades {
    
-    background-image: url(/assets/framehp.png), linear-gradient(transparent 1%, rgb(178, 216, 186) 99%);
-    background-repeat: repeat-x;   
+    background-image: url('assets/framehp.png');
+    background-repeat: repeat-x;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
 }
@@ -57,11 +61,13 @@ header {
 
         
         color: black;
+        background-color: rgb(250, 220, 182);
+        box-shadow: inset 0 0 20px 30px black;
         
     }
         .title__menu__divindades {
-            padding: 2rem;
-            font-size: x-large;
+            padding-top: 2rem;
+            font-size: xx-large;
             text-align: center;
             text-shadow: 0.1em 0.1em 0.2em white;
 
@@ -69,6 +75,8 @@ header {
 
         .description__menu__divindades {
             text-align: center;
+            padding: 50px;
+            font-size: large;
         }
         .imagens__menu__divindades {
             display: flex;
@@ -96,4 +104,4 @@ header {
                 padding: 10px;
                 color: black;
             }
-    
+

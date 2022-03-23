@@ -73,7 +73,7 @@ footer {
 
 /*Cores e fontes*/
 body {
-    background-image: linear-gradient(black, rgb(28, 44, 35));
+    background-color: black;
     color: plum;
     font-family: 'El Messiri', sans-serif;
 }
