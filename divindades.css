@@ -41,14 +41,10 @@
 
 .menu__divindades {
    
-<<<<<<< HEAD
     background-image: url('assets/framehp.png');
     background-repeat: repeat-x;
     background-color: black;
-=======
-    background-image: url('assets/framehp.png'), linear-gradient(transparent 1%, rgb(178, 216, 186) 99%);
-    background-repeat: repeat-x;   
->>>>>>> 39d94f7c2751df4d938a6df13ca1e8174456c88d
+
     display: flex;
     flex-wrap: wrap;
 }
@@ -109,8 +105,3 @@
                 padding: 10px;
                 color: black;
             }
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> 39d94f7c2751df4d938a6df13ca1e8174456c88d
